@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-yhcsx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "the common eslintConfig in react-node project",
   "main": "index.js",
   "scripts": {
@@ -17,13 +17,6 @@
     "yh"
   ],
   "author": "pandahao",
-  "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^3.19.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-react": "^7.0.1"
-  },
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
