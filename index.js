@@ -100,7 +100,7 @@ module.exports = {
     semi: ['error', 'never'],
     'space-before-blocks': ['error'],
     'space-before-function-paren': ['error', 'never'],
-    'space-in-parens': ['error', 'nevser'],
+    'space-in-parens': ['error', 'never'],
     'space-infix-ops': ['error'],
     'space-unary-ops': ['error', {
       words: true,
