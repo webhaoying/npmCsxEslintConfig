@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-yhcsx",
+  "version": "1.0.0",
+  "description": "the common eslintConfig in react-node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webhaoying/npmCsxEslintConfig.git"
+  },
+  "keywords": [
+    "csx",
+    "eslint",
+    "config",
+    "yh"
+  ],
+  "author": "pandahao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webhaoying/npmCsxEslintConfig/issues"
+  },
+  "homepage": "https://github.com/webhaoying/npmCsxEslintConfig#readme"
+}
