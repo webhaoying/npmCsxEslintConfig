@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-yhcsx",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "the common eslintConfig in react-node project",
   "main": "index.js",
   "scripts": {
