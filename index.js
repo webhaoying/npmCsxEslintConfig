@@ -32,14 +32,14 @@ module.exports = {
     'brace-style': ['error'],
       // "camelcase": ["error", {properties: "never"}],  //某些情况 不用驼峰命名
       // "capitalized-comments": ["error"],              //注释随意  不用大小写开头
-    'comma-dangle': ['error'],
+    'comma-dangle': ['error', 'only-multiline'], // 当最后一个元素或属性与闭括号 ] 或 } 在 不同的行时，允许（但不要求）使用拖尾逗号；当在 同一行时，禁止使用拖尾逗号。
     'comma-spacing': ['error'],
     'comma-style': ['error'],
     'computed-property-spacing': ['error'],
       // "curly": ["error"],  if 判断 作用域
     'dot-location': ['error', 'property'],
     'dot-notation': ['error'],
-    'eol-last': ['error'],
+    'eol-last': ['error', 'never'], // 文件结尾不需要以换行符号结束
     'func-call-spacing': ['error'],
     'func-name-matching': ['error'],
     'generator-star-spacing': ['error'],
@@ -83,7 +83,8 @@ module.exports = {
     'no-var': ['error'],
     'no-whitespace-before-property': ['error'],
       // "object-curly-newline": ["error"],
-    'object-curly-spacing': ['error', 'always'],
+      // "object-curly-spacing": ["error"], // 删除结构前后空格错误问题
+    'object-curly-spacing': [2, 'always'],
     'object-shorthand': ['error'],
     'operator-assignment': ['error'],
     'one-var': [2, { var: 'always' }], // 允许const 连续定义
