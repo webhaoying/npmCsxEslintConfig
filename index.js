@@ -12,7 +12,7 @@ module.exports = {
     sourceType: 'module',
     ecmaFeatures: {
       experimentalObjectRestSpread: true,
-      experimentalDecorators: true, // @ 装饰
+      // experimentalDecorators: true, // @ 装饰
       jsx: true
     }
   },
